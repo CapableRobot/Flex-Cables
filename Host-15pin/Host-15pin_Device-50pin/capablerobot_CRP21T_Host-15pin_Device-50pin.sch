@@ -4,12 +4,12 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "Alvium flex CSI adapter 100mm single same side contacts"
+Title "Flex Cable - CSI - 15 pin Host to 50 pin Device"
 Date ""
-Rev "1.0.1"
+Rev "CRP21T"
 Comp ""
-Comment1 "www.antmicro.com"
-Comment2 "Antmicro Ltd."
+Comment1 "www.capablerobot.com"
+Comment2 "Capable Robot Components"
 Comment3 ""
 Comment4 ""
 $EndDescr

@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=capablerobot_CRP21T_SDI-MIPI-Bridge-RaspberryPI.net
+LastNetListRead=capablerobot_CRP21T_Host-15pin_Device-50pin.net
 CopperLayerCount=2
 BoardThickness=0.2
 AllowMicroVias=0
