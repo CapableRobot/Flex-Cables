@@ -4,7 +4,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "Alvium flex CSI adapter 100mm double opposite side contacts"
+Title "PI Flex Cable : 15 pin, 150mm"
 Date ""
 Rev "1.0.0"
 Comp ""
@@ -179,7 +179,7 @@ PI Camera
 Text Notes 9650 2725 0    79   ~ 16
 Antmicro CSI interface
 Text Notes 700  825  0    79   ~ 16
-Flex CSI Cable : 15 Pin, opposite side contacts
+PI Flex CSI Cable : 15 Pin, opposite side contacts
 $Comp
 L antmicro-alvium-flex-csi-adapter:oshw_logo N1
 U 1 1 5F89FCA6
