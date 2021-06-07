@@ -69,16 +69,6 @@ NoConn ~ 10100 6775
 NoConn ~ 10100 6675
 NoConn ~ 10100 6575
 NoConn ~ 10100 6275
-NoConn ~ 10100 3275
-NoConn ~ 10100 3375
-NoConn ~ 10100 3475
-NoConn ~ 10100 3575
-NoConn ~ 10100 3675
-NoConn ~ 10100 3775
-NoConn ~ 10100 3875
-NoConn ~ 10100 3975
-NoConn ~ 10100 4175
-NoConn ~ 10100 4275
 NoConn ~ 10100 4475
 NoConn ~ 10100 4575
 NoConn ~ 10100 4775
@@ -91,30 +81,6 @@ Text Label 9400 7275 0    50   ~ 0
 SDA
 Text Label 9400 7375 0    50   ~ 0
 SCL
-Text Label 9350 5475 0    50   ~ 0
-CSI0_D1_N
-Text Label 9350 5575 0    50   ~ 0
-CSI0_D1_P
-Text Label 9350 5675 0    50   ~ 0
-CSI0_D0_N
-Text Label 9350 5775 0    50   ~ 0
-CSI0_D0_P
-Text Label 9350 5975 0    50   ~ 0
-CSI0_CLK_N
-Text Label 9350 6075 0    50   ~ 0
-CSI0_CLK_P
-Wire Wire Line
-	10100 6075 9300 6075
-Wire Wire Line
-	10100 5975 9300 5975
-Wire Wire Line
-	10100 5775 9300 5775
-Wire Wire Line
-	10100 5675 9300 5675
-Wire Wire Line
-	10100 5575 9300 5575
-Wire Wire Line
-	10100 5475 9300 5475
 Wire Wire Line
 	10100 7375 9800 7375
 Wire Wire Line
@@ -148,19 +114,6 @@ Wire Wire Line
 	10100 4375 9900 4375
 Wire Wire Line
 	10100 4075 9900 4075
-$Comp
-L antmicro-alvium-flex-csi-adapter:WE_687650100002_FLEX J2
-U 1 1 5FE0645A
-P 10300 4875
-F 0 "J2" H 10225 6600 50  0000 L CNN
-F 1 "WE_687650100002_FLEX" V 10400 1525 50  0000 L CNN
-F 2 "antmicro-alvium-flex-csi-adapter-footprints:WE_687650100002_FLEX" H 10100 1325 50  0001 C CNN
-F 3 "" H 10300 1225 50  0001 C CNN
-F 4 "687650100002" H 10700 4275 60  0001 L CNN "MPN"
-F 5 "Wurth Elektronik " H 10950 3075 60  0001 L CNN "Manufacturer"
-	1    10300 4875
-	1    0    0    -1  
-$EndComp
 $Bitmap
 Pos 3200 10650
 Scale 0.150000
@@ -3344,10 +3297,6 @@ Wire Wire Line
 Wire Wire Line
 	6625 4525 6625 4825
 Connection ~ 6625 4825
-NoConn ~ 10100 5375
-NoConn ~ 10100 5275
-NoConn ~ 10100 5175
-NoConn ~ 10100 5075
 Wire Wire Line
 	10100 6375 9308 6375
 Wire Wire Line
@@ -3416,4 +3365,77 @@ Wire Wire Line
 	6625 5725 6625 6025
 Wire Wire Line
 	6325 6025 6625 6025
+Wire Wire Line
+	6325 5525 7225 5525
+Wire Wire Line
+	6325 5625 7225 5625
+Wire Wire Line
+	6325 5825 7225 5825
+Wire Wire Line
+	6325 5925 7225 5925
+Text Label 6675 5525 0    50   ~ 0
+CSI0_D2_N
+Text Label 6675 5625 0    50   ~ 0
+CSI0_D2_P
+Text Label 6675 5825 0    50   ~ 0
+CSI0_D3_N
+Text Label 6675 5925 0    50   ~ 0
+CSI0_D3_P
+$Comp
+L antmicro-alvium-flex-csi-adapter:WE_687650100002_FLEX J2
+U 1 1 5FE0645A
+P 10300 4875
+F 0 "J2" H 10225 6600 50  0000 L CNN
+F 1 "WE_687650100002_FLEX" V 10400 1525 50  0000 L CNN
+F 2 "antmicro-alvium-flex-csi-adapter-footprints:WE_687650100002_FLEX" H 10100 1325 50  0001 C CNN
+F 3 "" H 10300 1225 50  0001 C CNN
+F 4 "687650100002" H 10700 4275 60  0001 L CNN "MPN"
+F 5 "Wurth Elektronik " H 10950 3075 60  0001 L CNN "Manufacturer"
+	1    10300 4875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 3275 9300 3275
+Wire Wire Line
+	10100 3375 9300 3375
+Wire Wire Line
+	10100 3475 9300 3475
+Wire Wire Line
+	10100 3575 9300 3575
+Wire Wire Line
+	10100 3675 9300 3675
+Wire Wire Line
+	10100 3775 9300 3775
+Wire Wire Line
+	10100 3875 9300 3875
+Wire Wire Line
+	10100 3975 9300 3975
+Wire Wire Line
+	10100 4175 9300 4175
+Wire Wire Line
+	10100 4275 9300 4275
+Text Label 9350 4275 0    50   ~ 0
+CSI0_CLK_P
+Text Label 9350 4175 0    50   ~ 0
+CSI0_CLK_N
+Text Label 9350 3975 0    50   ~ 0
+CSI0_D0_P
+Text Label 9350 3875 0    50   ~ 0
+CSI0_D0_N
+Text Label 9350 3775 0    50   ~ 0
+CSI0_D1_P
+Text Label 9350 3675 0    50   ~ 0
+CSI0_D1_N
+Text Label 9350 3575 0    50   ~ 0
+CSI0_D2_P
+Text Label 9350 3475 0    50   ~ 0
+CSI0_D2_N
+Text Label 9350 3375 0    50   ~ 0
+CSI0_D3_P
+Text Label 9350 3275 0    50   ~ 0
+CSI0_D3_N
+Text Notes 1000 2500 0    59   ~ 0
+Revision 0 : Initial Release
+Text Notes 1000 2750 0    59   ~ 0
+Revision 1 : Change to 4 lane MIPI Interface & alternate MIPI\nto connection to allow for single bitstream on SDI Bridge Board
 $EndSCHEMATC

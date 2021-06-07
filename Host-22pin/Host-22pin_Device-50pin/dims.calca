@@ -1,0 +1,30 @@
+154.8234-(120+12) => 22.8234
+
+84.7194-(120-12) => -23.2806
+
++23.2806
+
+114.1226-102.4386 => 11.684
+
+baseline = 24mm
+length = 178mm
+
+cx = 120mm
+top = 15mm
+
+pad_depth = 4mm
+leg_width = 11.5mm
+
+cxa = cx + (0.5mm * 51)/2 => 132.75 mm
+cxb = cx - (0.5mm * 51)/2 => 107.25 mm
+
+x1 = cx + baseline/2 => 132 mm
+x2 = cx - baseline/2 => 108 mm
+
+x1a = x1 + leg_width/2 => 137.75 mm
+x1a = x1 - leg_width/2 => 126.25 mm
+
+x2a = x2 + leg_width/2 => 113.75 mm
+x2a = x2 - leg_width/2 => 102.25 mm
+
+bottom = top + length => 193 mm

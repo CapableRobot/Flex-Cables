@@ -73,12 +73,6 @@ NoConn ~ 10100 3275
 NoConn ~ 10100 3375
 NoConn ~ 10100 3475
 NoConn ~ 10100 3575
-NoConn ~ 10100 3675
-NoConn ~ 10100 3775
-NoConn ~ 10100 3875
-NoConn ~ 10100 3975
-NoConn ~ 10100 4175
-NoConn ~ 10100 4275
 NoConn ~ 10100 4475
 NoConn ~ 10100 4575
 NoConn ~ 10100 4775
@@ -91,30 +85,6 @@ Text Label 9400 7275 0    50   ~ 0
 SDA
 Text Label 9400 7375 0    50   ~ 0
 SCL
-Text Label 9350 5475 0    50   ~ 0
-CSI0_D1_N
-Text Label 9350 5575 0    50   ~ 0
-CSI0_D1_P
-Text Label 9350 5675 0    50   ~ 0
-CSI0_D0_N
-Text Label 9350 5775 0    50   ~ 0
-CSI0_D0_P
-Text Label 9350 5975 0    50   ~ 0
-CSI0_CLK_N
-Text Label 9350 6075 0    50   ~ 0
-CSI0_CLK_P
-Wire Wire Line
-	10100 6075 9300 6075
-Wire Wire Line
-	10100 5975 9300 5975
-Wire Wire Line
-	10100 5775 9300 5775
-Wire Wire Line
-	10100 5675 9300 5675
-Wire Wire Line
-	10100 5575 9300 5575
-Wire Wire Line
-	10100 5475 9300 5475
 Wire Wire Line
 	10100 7375 9800 7375
 Wire Wire Line
@@ -3401,4 +3371,32 @@ Wire Wire Line
 Connection ~ 9725 7275
 Wire Wire Line
 	9725 7275 9300 7275
+Text Notes 1000 2000 0    59   ~ 0
+Revision 0 : Initial Release
+Text Notes 1000 2250 0    59   ~ 0
+Revision 1 : Change to alternative MIPI port to allow single bistream on SDI Bridge Board
+Wire Wire Line
+	10100 4275 9300 4275
+Wire Wire Line
+	10100 4175 9300 4175
+Wire Wire Line
+	10100 3975 9300 3975
+Wire Wire Line
+	10100 3875 9300 3875
+Wire Wire Line
+	10100 3775 9300 3775
+Wire Wire Line
+	10100 3675 9300 3675
+Text Label 9350 4275 0    59   ~ 0
+CSI0_CLK_P
+Text Label 9350 4175 0    59   ~ 0
+CSI0_CLK_N
+Text Label 9350 3975 0    59   ~ 0
+CSI0_D0_P
+Text Label 9350 3875 0    59   ~ 0
+CSI0_D0_N
+Text Label 9350 3775 0    59   ~ 0
+CSI0_D1_P
+Text Label 9350 3675 0    59   ~ 0
+CSI0_D1_N
 $EndSCHEMATC
